@@ -17,8 +17,8 @@ Heres a tut for getting unlimited coins with dank memer on dsicord just follow s
 - Type `Python DNKMemHack.py`.
 
 ## Step 5:
--Quickly mainscreen discord preferably in a private server so `Pls search` works properly then bam thats it its working 
+- Quickly mainscreen discord preferably in a private server so `Pls search` works properly then bam thats it its working 
 
 ## Extras
--DNKMemHack1 contains Pls search , Pls beg , and Pls dep (default stuff everyone can do from beggining)
--DNKMemHack2 contians Pls search , Pls beg , and Pls dep , Pls fish , Pls hunt and Pls Dig
+- DNKMemHack1 contains Pls search , Pls beg , and Pls dep (default stuff everyone can do from beggining)
+- DNKMemHack2 contians Pls search , Pls beg , and Pls dep , Pls fish , Pls hunt and Pls Dig
