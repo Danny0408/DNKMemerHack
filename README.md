@@ -21,4 +21,4 @@ Heres a tut for getting unlimited coins with dank memer on dsicord just follow s
 
 ## Extras
 - DNKMemHack1 contains Pls search , Pls beg , and Pls dep (default stuff everyone can do from beggining)
-- DNKMemHack2 contians Pls search , Pls beg , and Pls dep , Pls fish , Pls hunt and Pls Dig
+- DNKMemHack2 contians Pls search , Pls beg , and Pls dep , Pls fish , Pls hunt , Pls Dig and pls sell
