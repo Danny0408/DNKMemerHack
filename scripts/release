@@ -1,0 +1,20 @@
+#!/bin/bash
+
+scripts/clean
+source scripts/variables
+mkdir release
+
+for OS in "windows" "darwin" "linux"; do
+  DIR="release/dankgrinder-${VERSION}-${OS}-amd64"
+  DANKGRINDER="dankgrinder"
+
+  if [ "${OS}" = "windows" ]; then
+    DANKGRINDER="${DANKGRINDER}.exe"
+  fi
+
+  mkdir "${DIR}"
+  cp config.yml "${DIR}"
+  GOROOT_FINAL=/ GOOS=${OS} GOARCH=amd64 go build -ldflags "-w -s" -v -o "${DIR}/${DANKGRINDER}" .
+  zip -vr9j "${DIR}".zip "${DIR}"/*
+  rm -rf "${DIR}"
+done

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+scripts/clean
+mkdir build
+DANKGRINDER="dankgrinder"
+
+if [ "${GOOS}" = "windows" ]; then
+  DANKGRINDER="${DANKGRINDER}.exe"
+fi
+go build -v -o "build/${DANKGRINDER}" .
